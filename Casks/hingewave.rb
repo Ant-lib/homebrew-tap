@@ -14,7 +14,7 @@ cask "hingewave" do
   desc "iPhone Duo fold animation for the MacBook lid, driven by the hinge angle sensor"
   homepage "https://github.com/Ant-lib/hingewave"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Hingewave.app"
 
